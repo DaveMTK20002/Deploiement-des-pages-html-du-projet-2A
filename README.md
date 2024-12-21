@@ -1,2 +1,2 @@
-# Projet-Test
-Pour les abonnés
+# Projet-Deploiement pages html du projet 2A
+Ce projet fournit les pages html utilisées pour le deploiement du projet informatique 2A. Le code de ce projet a été déployé via **render** et les pages html designées ici permettent de faire appel aux fonctionnalités du code. Ensuite, ces pages html ont elles-mêmes été déployées sur GitHub pages pour être accessibles depuis n'importe quel navigateur par un URL.
