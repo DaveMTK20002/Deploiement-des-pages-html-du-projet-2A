@@ -1,0 +1,209 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f9; /* Couleur de fond douce */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+header {
+    /*background-color: #7F8C8D;*/
+    padding: 10px 20px;
+    text-align: center;
+    height: 10vh;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #2c3e50; /* Couleur sombre mais moderne */
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.0rem;
+    color: #7f8c8d; /* Texte secondaire plus léger */
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #3498db; /* Couleur de fond */
+    border: none; /* Pas de bordure */
+    color: white; /* Couleur du texte */
+    padding: 15px 32px; /* Espacement */
+    text-align: center; /* Alignement du texte */
+    text-decoration: none; /* Pas de soulignement */
+    display: inline-block; /* Affichage en ligne */
+    font-size: 16px; /* Taille de la police */
+    margin: 10px 2px; /* Marges */
+    cursor: pointer; /* Curseur en forme de main */
+    border-radius: 5px; /* Coins arrondis */
+    transition: background-color 0.3s; /* Transition douce */
+}
+
+.button:hover {
+    background-color: rosybrown; /* Couleur au survol */
+}
+
+.container {
+    text-align: center;
+    margin: 50px;
+}
+
+#FilmResearch {
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* Corrected syntax for two columns */
+    grid-gap: 20px; /* Space between columns */
+    padding: 20px; /* Optional padding */
+}
+
+#FilmResult {
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#MovieDescriptionContainer {
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 0.5px solid #ccc;
+    border-radius: 5px;
+}
+
+
+
+.button2 {
+    background-color: #3498db; /* Couleur de fond */
+    border: none; /* Pas de bordure */
+    color: white; /* Couleur du texte */
+    padding: 5px 5px; /* Espacement */
+    text-align: center; /* Alignement du texte */
+    text-decoration: none; /* Pas de soulignement */
+    display: inline-block; /* Affichage en ligne */
+    font-size: 16px; /* Taille de la police */
+    margin: 10px 2px; /* Marges */
+    cursor: pointer; /* Curseur en forme de main */
+    border-radius: 5px; /* Coins arrondis */
+    transition: background-color 0.3s; /* Transition douce */
+}
+
+.button:hover {
+    background-color: #2980b9; /* Couleur au survol */
+}
+
+.button2:hover {
+    background-color: #2980b9; /* Couleur au survol */
+}
+
+.container {
+    text-align: center;
+    margin: 50px;
+}
+
+
+.form-container {
+    width: 40%; /* Définit la largeur de l'élément */
+    max-width: 400px;
+    margin-top: 30px;
+    margin-left: 250px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 60%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 0.5px solid #ccc;
+    border-radius: 5px;
+}
+
+label{
+    width: 50%;
+    padding: 5px;
+    margin: 10px 0;
+    border: 0.5px solid #ccc;
+    border-radius: 5px;
+}
+
+.findTitle {
+    width: 30%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 0.5px solid #ccc;
+    border-radius: 5px;
+}
+
+.country-select {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 0.5px solid #ccc;
+    border-radius: 5px;
+}
+
+.critere {
+    width: 55%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 0.5px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+
+
+.section {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    line-height: 120%;
+}
+
+
+
+.LogoButton {
+    position: absolute;  /* Positionnement absolu pour le placer en haut à gauche */
+    top: 0px;  /* Marge de 20px du haut */
+    left: 20px;  /* Marge de 20px à gauche */
+    padding: 10px 20px;
+    background-color: white;
+    color: blue;
+    border: none;
+    width: 15vh;
+    height: 15vh;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background-image: url("logo_seul.png");
+    background-repeat: no-repeat; 
+    background-size: contain;
+    background-position: center;
+    border-radius: 50vh;
+    cursor: pointer;
+}
+
+
+/* Style pour le footer */
+footer {
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    text-align: center;
+}

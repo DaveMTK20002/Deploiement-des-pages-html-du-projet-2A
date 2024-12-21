@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Lien vers le fichier CSS -->  
+</head>
+<header>
+    <h1>Connexion à StreamSmart</h1>
+    <button id="HomePageLogoButton" class="LogoButton" onclick="accueil()"></button>
+</header>
+<body>
+    <div class="form-container">
+        <form>
+            <input id="connexionMail" type="email" placeholder="Email" required>
+            <input id="connexionPwd" type="password" placeholder="Mot de passe" required>
+            <button type="button" class="button" onclick="connexion()">Se connecter</button>
+        </form>
+    </div>
+    <script src="index.js"></script>
+    <footer>
+        <p>&copy; 2024 Streamsmart. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
