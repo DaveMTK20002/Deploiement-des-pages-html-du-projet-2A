@@ -47,7 +47,7 @@ async function connexion() {
         const code=result.status_code
         if (code===200) {
             alert(result.detail);  // Affiche le message "Connexion réussie"
-            window.location.href = '../page_connexion.html';
+            window.location.href = 'page_connexion.html';
             localStorage.setItem('token', result.token);
 
     } else{
